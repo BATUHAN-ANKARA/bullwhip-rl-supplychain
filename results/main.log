@@ -1,0 +1,41 @@
+
+== Q-öğrenme (MARL) eğitiliyor ==
+  [qlearning/hybrid] bölüm   500  ε=0.90  son 500 ort. kâr =    47.6  doğrulama =  3310.8  (en iyi  3486.9)
+  [qlearning/hybrid] bölüm  1000  ε=0.79  son 500 ort. kâr =  1216.3  doğrulama =  3263.9  (en iyi  3486.9)
+  [qlearning/hybrid] bölüm  1500  ε=0.69  son 500 ort. kâr =  1784.1  doğrulama =  3454.3  (en iyi  3486.9)
+  [qlearning/hybrid] bölüm  2000  ε=0.58  son 500 ort. kâr =  2220.2  doğrulama =  3030.5  (en iyi  3486.9)
+  [qlearning/hybrid] bölüm  2500  ε=0.48  son 500 ort. kâr =  2261.6  doğrulama =  2969.2  (en iyi  3486.9)
+  [qlearning/hybrid] bölüm  3000  ε=0.38  son 500 ort. kâr =  2356.6  doğrulama =  2985.5  (en iyi  3486.9)
+  [qlearning/hybrid] bölüm  3500  ε=0.27  son 500 ort. kâr =  2612.4  doğrulama =  2554.7  (en iyi  3486.9)
+  [qlearning/hybrid] bölüm  4000  ε=0.17  son 500 ort. kâr =  2548.7  doğrulama =  2698.1  (en iyi  3486.9)
+  [qlearning/hybrid] bölüm  4500  ε=0.06  son 500 ort. kâr =  2526.1  doğrulama =  2703.5  (en iyi  3486.9)
+  [qlearning/hybrid] bölüm  5000  ε=0.02  son 500 ort. kâr =  2647.7  doğrulama =  2747.5  (en iyi  3486.9)
+  [qlearning/hybrid] bölüm  5500  ε=0.02  son 500 ort. kâr =  2555.3  doğrulama =  2473.3  (en iyi  3486.9)
+  [qlearning/hybrid] bölüm  6000  ε=0.02  son 500 ort. kâr =  2504.8  doğrulama =  2819.2  (en iyi  3486.9)
+
+== SARSA (MARL) eğitiliyor ==
+  [sarsa/hybrid] bölüm   500  ε=0.90  son 500 ort. kâr =   201.0  doğrulama =  2449.1  (en iyi  3381.3)
+  [sarsa/hybrid] bölüm  1000  ε=0.79  son 500 ort. kâr =  1670.2  doğrulama =  1615.5  (en iyi  3381.3)
+  [sarsa/hybrid] bölüm  1500  ε=0.69  son 500 ort. kâr =  2678.2  doğrulama =  3108.7  (en iyi  3381.3)
+  [sarsa/hybrid] bölüm  2000  ε=0.58  son 500 ort. kâr =  2674.4  doğrulama =  3248.6  (en iyi  3541.5)
+  [sarsa/hybrid] bölüm  2500  ε=0.48  son 500 ort. kâr =  2884.7  doğrulama =  3162.0  (en iyi  3541.5)
+  [sarsa/hybrid] bölüm  3000  ε=0.38  son 500 ort. kâr =  2892.9  doğrulama =  3386.8  (en iyi  3541.5)
+  [sarsa/hybrid] bölüm  3500  ε=0.27  son 500 ort. kâr =  2767.6  doğrulama =  2800.3  (en iyi  3541.5)
+  [sarsa/hybrid] bölüm  4000  ε=0.17  son 500 ort. kâr =  2591.0  doğrulama =  2881.1  (en iyi  3541.5)
+  [sarsa/hybrid] bölüm  4500  ε=0.06  son 500 ort. kâr =  2836.5  doğrulama =  2860.1  (en iyi  3541.5)
+  [sarsa/hybrid] bölüm  5000  ε=0.02  son 500 ort. kâr =  2735.7  doğrulama =  2861.3  (en iyi  3541.5)
+  [sarsa/hybrid] bölüm  5500  ε=0.02  son 500 ort. kâr =  2806.8  doğrulama =  2875.3  (en iyi  3541.5)
+  [sarsa/hybrid] bölüm  6000  ε=0.02  son 500 ort. kâr =  2659.5  doğrulama =  2927.6  (en iyi  3541.5)
+
+Eğitim süresi: 94.2 sn
+
+== Test sonuçları (300 görülmemiş bölüm) ==
+Politika                           Kâr  Dolum%  BW-Ana   BW-Fabr  BW-Teda    Stok  Yoksat
+-----------------------------------------------------------------------------------------
+Pass-through                    2413.7    76.6     0.98     0.94     0.90   627.1  2370.8
+Order-up-to (base-stock)        1889.9    74.8     3.90    11.99    31.92  1184.3  2155.4
+Yumuşatılmış order-up-to        2729.4    84.3     1.71     3.78     7.85  1451.2  1592.4
+Q-öğrenme (MARL)                3292.3    96.1     2.01     1.41     2.30  2257.2   459.6
+SARSA (MARL)                    3283.1    93.4     1.40     2.31     2.50  2089.4   529.9
+
+Grafikler ve sonuçlar 'results/' klasörüne kaydedildi.
