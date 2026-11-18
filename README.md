@@ -154,3 +154,6 @@ Her iki betik de `results/` içindeki dosyaların üzerine yazar.
 | `main.py` | Eğitim, kontrol noktası, test, grafikler |
 | `experiments.py` | Çoklu tohum ve ödül paylaşımı deneyleri |
 | `results/` | `sonuclar.json` (tek tohum), `deneyler.json` (5 tohum), Q-tabloları, grafikler, loglar |
+
+## 12. Ekstra
+| `Rehber İçerik` | https://drive.google.com/file/d/1WUMEBiarsVhhcx5s0gTYxx6oEWXXx0dJ/view |
